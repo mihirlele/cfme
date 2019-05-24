@@ -1,0 +1,1 @@
+../bundler/gems/cfme-providers-vmware-21128f8c74ce/manageiq-providers-vmware.gemspec

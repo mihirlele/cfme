@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{2589:function(i,n,o){"use strict";window.provisioningListenToRx=function(){listenToRx(function(i){if(i&&i.payload&&"GTL_CLICKED"===i.type&&"provisioning"===i.actionType){var n=i.payload,o=n.action,t=n.item;sendDataWithRx({item:t,type:"gtlSetOneRowActive"}),miqAjax(""+o.url+t.id)}})}}},[[2589,0]]]);
+//# sourceMappingURL=provisioning-actions-common-39d88e085f64a95cb620.js.map

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Plan Wizard integration test should mount the PlanWizard with mapStateToProps reduced 1`] = `
+Object {
+  "alertText": undefined,
+  "alertType": undefined,
+  "editingPlan": undefined,
+  "hideAlertAction": [Function],
+  "hideConfirmModalAction": [Function],
+  "hidePlanWizard": false,
+  "hidePlanWizardAction": [Function],
+  "planWizardAdvancedOptionsStep": Object {},
+  "planWizardExitedAction": [Function],
+  "planWizardGeneralStep": Object {},
+  "planWizardInstancePropertiesStep": Object {},
+  "planWizardScheduleStep": Object {},
+  "planWizardVMStep": Object {},
+  "resetAdvancedOptionsStepAction": [Function],
+  "resetVmStepAction": [Function],
+  "setMetadataWithBackButtonClickedAction": [Function],
+  "setMetadataWithNextButtonClickedAction": [Function],
+  "setMigrationsFilterAction": [Function],
+  "setPlanScheduleAction": [Function],
+  "setPlansBodyAction": [Function],
+  "showAlertAction": [Function],
+  "showConfirmModalAction": [Function],
+  "transformationMappings": Array [],
+}
+`;

@@ -1,0 +1,1 @@
+../bundler/gems/handsoap-b1247a733ca3/handsoap.gemspec

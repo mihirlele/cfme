@@ -1,0 +1,1 @@
+../bundler/gems/cfme-providers-scvmm-ca4d244bfc9e/manageiq-providers-scvmm.gemspec

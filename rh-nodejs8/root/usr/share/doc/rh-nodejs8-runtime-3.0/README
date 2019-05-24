@@ -1,0 +1,38 @@
+Package rh-nodejs8 provides Node.js platform delivered as a Software
+Collection. For more information about Software Collections,
+see the scl(1) man page. By installing the rh-nodejs8 collection,
+you will get the minimum working set of packages to have a working Node.js platform.
+
+Usage: scl enable rh-nodejs8 'node'
+
+Software Collections allow you to build and execute applications
+which are not located in the filesystem root hierarchy,
+but are stored in an alternative location, which is /opt/rh/rh-nodejs8/root
+in case of the rh-nodejs8 collection.
+
+Node.js is a platform built on Chrome's JavaScript runtime
+for easily building fast, scalable network applications.
+Node.js uses an event-driven, non-blocking I/O model that
+makes it lightweight and efficient, perfect for data-intensive
+real-time applications that run across distributed devices.
+
+When you want to work with the rh-nodejs8 collection, use the scl
+utility (see the scl(1) man page for usage) to enable the scl
+environment.
+
+Examples:
+scl enable rh-nodejs8 'command --arg'
+  Run a specific command with the argument --arg within the rh-nodejs8
+  software collections environment.
+
+scl enable rh-nodejs8 'node'
+  Run node from the rh-nodejs8 software collection.
+
+scl enable rh-nodejs8 bash
+  Run an interactive shell with the rh-nodejs8 software collection enabled.
+
+scl enable rh-nodejs8 'man node'
+  Show man pages for the node command, which is a part of the
+  rh-nodejs8 software collection.
+
+Report bugs to <http://bugzilla.redhat.com>.

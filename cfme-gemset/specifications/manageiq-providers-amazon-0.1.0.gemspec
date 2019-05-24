@@ -1,0 +1,1 @@
+../bundler/gems/cfme-providers-amazon-a19a64b5fc66/manageiq-providers-amazon.gemspec

@@ -1,0 +1,1 @@
+../bundler/gems/cfme-providers-google-6324c6b2bc65/manageiq-providers-google.gemspec

@@ -1,0 +1,17 @@
+require 'manageiq-smartstate'
+
+require 'log_decorator'
+
+require 'amazon_ssa_support/version'
+require 'amazon_ssa_support/ssa_common'
+require 'amazon_ssa_support/instance_metadata'
+require 'amazon_ssa_support/ssa_bucket.rb'
+require 'amazon_ssa_support/ssa_heartbeat.rb'
+require 'amazon_ssa_support/ssa_queue.rb'
+require 'amazon_ssa_support/ssa_queue_extractor.rb'
+require 'amazon_ssa_support/miq_ec2_vm/miq_ec2_ebs_image.rb'
+require 'amazon_ssa_support/miq_ec2_vm/miq_ec2_ebs_instance.rb'
+require 'amazon_ssa_support/miq_ec2_vm/miq_ec2_ebs_vmbase.rb'
+require 'amazon_ssa_support/miq_ec2_vm/miq_ec2_vm.rb'
+require 'amazon_ssa_support/miq_ec2_vm/miq_ec2_vmbase.rb'
+require 'amazon_ssa_support/rolling_s3_logger.rb'

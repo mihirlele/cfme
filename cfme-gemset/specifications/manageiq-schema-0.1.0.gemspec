@@ -1,0 +1,1 @@
+../bundler/gems/cfme-schema-ad0ea586ec48/manageiq-schema.gemspec

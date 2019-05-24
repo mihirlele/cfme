@@ -1,0 +1,52 @@
+# puger dog <ella.cheng.sh@linguitronics.com>, 2018. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: ManageIQ_Providers_Scvmm 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-03 16:04+0200\n"
+"PO-Revision-Date: 2018-10-23 07:22+0000\n"
+"Last-Translator: puger dog <ella.cheng.sh@linguitronics.com>\n"
+"Language-Team: Chinese (Simplified, China)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_Hans_CN\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Zanata 4.6.2\n"
+
+#: ../app/models/manageiq/providers/microsoft/infra_manager/host.rb:36
+msgid "Host (Microsoft)"
+msgid_plural "Hosts (Microsoft)"
+msgstr[0] ""
+"主机 (Microsoft)\n"
+"主机 (Microsoft)"
+
+#: ../app/models/manageiq/providers/microsoft/infra_manager.rb:172
+msgid "Infrastructure Provider (Microsoft)"
+msgid_plural "Infrastructure Providers (Microsoft)"
+msgstr[0] ""
+"基础架构供应商 (Microsoft)\n"
+"基础架构供应商 (Microsoft)"
+
+#: ../lib/manageiq/providers/scvmm/engine.rb:8
+msgid "Microsoft SCVMM Provider"
+msgstr "Microsoft SCVMM 供应商"
+
+#: ../app/models/manageiq/providers/microsoft/infra_manager/vm.rb:4
+msgid "Migrate operation is not supported."
+msgstr "不支持迁移操作。"
+
+#: ../app/models/manageiq/providers/microsoft/infra_manager/vm.rb:8
+msgid "The VM is not powered on"
+msgstr "虚拟机未开启"
+
+#: ../app/models/manageiq/providers/microsoft/infra_manager/vm.rb:38
+msgid "Virtual Machine (Microsoft)"
+msgid_plural "Virtual Machines (Microsoft)"
+msgstr[0] ""
+"虚拟机 (Microsoft)\n"
+"虚拟机 (Microsoft)"
+
+#: ../app/models/manageiq/providers/microsoft/infra_manager/template.rb:6
+msgid "not connected to ems"
+msgstr "未连接至 EMS"

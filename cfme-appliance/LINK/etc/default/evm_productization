@@ -1,0 +1,5 @@
+export APPLIANCE_SOURCE_DIRECTORY=/opt/rh/cfme-appliance
+export APPLIANCE_TEMPLATE_DIRECTORY=${APPLIANCE_SOURCE_DIRECTORY}/TEMPLATE
+
+[[ -s /opt/rh/cfme-gemset/enable ]] && source /opt/rh/cfme-gemset/enable
+[[ -s /opt/rh/rh-nodejs8/enable ]] && source /opt/rh/rh-nodejs8/enable

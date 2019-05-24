@@ -1,0 +1,1 @@
+../bundler/gems/cfme-providers-foreman-5729c33ffab9/manageiq-providers-foreman.gemspec

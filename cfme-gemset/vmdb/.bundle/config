@@ -1,0 +1,5 @@
+---
+BUNDLE_RETRY: "3"
+BUNDLE_JOBS: "3"
+BUNDLE_WITHOUT: "test:development:metric_fu"
+BUNDLE_WITH: "qpid_proton"

@@ -1,0 +1,18 @@
+# For binaries
+export PATH="/opt/rh/rh-postgresql95/root/usr/bin${PATH:+:${PATH}}"
+# For header files
+export CPATH="/opt/rh/rh-postgresql95/root/usr/include${CPATH:+:${CPATH}}"
+# For libraries during build
+export LIBRARY_PATH="/opt/rh/rh-postgresql95/root/usr/lib64${LIBRARY_PATH:+:${LIBRARY_PATH}}"
+# For libraries during linking
+export LD_LIBRARY_PATH="/opt/rh/rh-postgresql95/root/usr/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}"
+# For man pages; empty field makes man to consider also standard path
+export MANPATH="/opt/rh/rh-postgresql95/root/usr/share/man:${MANPATH}"
+# For Java Packages Tools to locate java.conf
+export JAVACONFDIRS="/etc/opt/rh/rh-postgresql95/java:${JAVACONFDIRS:-/etc/java}"
+# For XMvn to locate its configuration file(s)
+export XDG_CONFIG_DIRS="/etc/opt/rh/rh-postgresql95/xdg:${XDG_CONFIG_DIRS:-/etc/xdg}"
+# For systemtap
+export XDG_DATA_DIRS="/opt/rh/rh-postgresql95/root/usr/share${XDG_DATA_DIRS:+:${XDG_DATA_DIRS}}"
+# For pkg-config
+export PKG_CONFIG_PATH="/opt/rh/rh-postgresql95/root/usr/lib64/pkgconfig${PKG_CONFIG_PATH:+:${PKG_CONFIG_PATH}}"

@@ -1,0 +1,10 @@
+<license id="1000748">
+    <name>OEM License</name>
+    <vendor>YesLogic</vendor>
+    <product>Prince</product>
+    <version>12</version>
+    <end-user>Red Hat, Inc.</end-user>
+    <date>2010-08-21</date>
+    <signature>CBF3B5DFE8167CA3F808CB942DC5FC76</signature>
+    <option id="upgrades">20190821</option>
+</license>

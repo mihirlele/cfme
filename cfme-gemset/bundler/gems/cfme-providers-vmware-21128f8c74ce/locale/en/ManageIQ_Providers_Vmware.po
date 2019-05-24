@@ -1,0 +1,81 @@
+# English translations for ManageIQ_Providers_Vmware package.
+# Copyright (C) 2017 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ManageIQ_Providers_Vmware package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ManageIQ_Providers_Vmware 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2017-04-21 10:23+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"\n"
+
+msgid "%{field_required} for Non-DRS enabled cluster"
+msgstr ""
+
+msgid "Clone operation is not supported"
+msgstr ""
+
+msgid "Cloud Provider (VMware vCloud)"
+msgid_plural "Cloud Providers (VMware vCloud)"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Either Host Name or Cluster Name is required"
+msgstr ""
+
+msgid "Host (Vmware)"
+msgid_plural "Hosts (Vmware)"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Host must be connected to an EMS to refresh datastore files"
+msgstr ""
+
+msgid "Infrastructure Provider (VMware)"
+msgid_plural "Infrastructure Providers (VMware)"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Instance (VMware vCloud)"
+msgid_plural "Instances (VMware vCloud)"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "The VM is not powered on"
+msgstr ""
+
+msgid "The VM tools is not installed"
+msgstr ""
+
+msgid "VMware Provider"
+msgstr ""
+
+msgid "Virtual Machine (VMware)"
+msgid_plural "Virtual Machines (VMware)"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "no block given"
+msgstr ""
+
+msgid "no console credentials defined"
+msgstr ""
+
+msgid "no credentials defined"
+msgstr ""
+
+msgid "not connected to ems"
+msgstr ""
+
+msgid "vApp Template"
+msgid_plural "vApp Templates"
+msgstr[0] ""
+msgstr[1] ""

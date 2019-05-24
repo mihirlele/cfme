@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Thin wrapper arount pg_ctl.
+#
+# This file exists for the following reasons:
+#
+# * It is s compat-wrapper for the cases when PGPORT *is* set directly in
+#   postgresql.service (nowadays users should configure port directly in
+#   postgresql.conf).  This is hack which allows us to do a conditional step
+#   before running pg_ctl (which is not allowed by systemd).
+#
+# * This helper script is necessary for having proper SELinux context of daemon
+#   process run in SCL environment via systemd/sysvinit service file.  Without
+#   this script the process looses SELinux type because /usr/bin/scl
+#   has context bin_t and 'unit_t -> bin_t' results in unconfined process.
+#   This file must thus have 'postgresql_exec_t' fcontext.
+
+source scl_source enable rh-postgresql95
+
+# Help users to run postgresql server extensions built against specific
+# software collection (that said, such collection is runtime dependancy of
+# such extension, not the server itself).
+test -n "$PGSCLS" && source scl_source enable $PGSCLS
+
+opts=()
+test "$1" = "start" && test -n "$PGOPTS" && opts=(-o "$PGOPTS")
+
+# cleanup possibly empty PGPORT
+test -z "$PGPORT" && unset PGPORT
+
+exec /opt/rh/rh-postgresql95/root/usr/bin/pg_ctl "$@" "${opts[@]}"

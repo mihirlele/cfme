@@ -1,0 +1,1 @@
+../bundler/gems/cfme-providers-lenovo-63c55ee1e036/manageiq-providers-lenovo.gemspec

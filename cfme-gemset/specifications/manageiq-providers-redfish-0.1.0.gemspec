@@ -1,0 +1,1 @@
+../bundler/gems/cfme-providers-redfish-c296be5258c3/manageiq-providers-redfish.gemspec

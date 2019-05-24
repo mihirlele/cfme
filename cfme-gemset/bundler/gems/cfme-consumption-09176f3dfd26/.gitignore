@@ -1,0 +1,31 @@
+/.bundle/
+/.yardoc
+/Gemfile.lock
+/_yardoc/
+/doc/
+/pkg/
+/spec/reports
+/spec/manageiq
+
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/
+!/log/.keep
+!/tmp/.keep
+
+# rspec failure tracking
+.rspec_status
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore coverage files
+coverage/
+
+# Ignore other configuration for IDE
+/.vscode/
+/.idea/
+/.rubocop-https---raw-githubusercontent-com-ManageIQ-guides-master--rubocop-base-yml
+/bundler.d/
+.ruby-version

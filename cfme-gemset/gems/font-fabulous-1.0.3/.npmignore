@@ -1,0 +1,15 @@
+ci
+lib
+pkg
+templates
+.gitignore
+.fontcustom
+.fontcustom-manifest.json
+.travis.yml
+Gemfile
+Gemfile.lock
+Rakefile
+bower.json
+font-fabulous.gemspec
+fontcustom.yml
+preview.html

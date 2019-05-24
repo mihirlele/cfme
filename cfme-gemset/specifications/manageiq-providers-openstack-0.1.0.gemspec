@@ -1,0 +1,1 @@
+../bundler/gems/cfme-providers-openstack-371a0c69fc67/manageiq-providers-openstack.gemspec

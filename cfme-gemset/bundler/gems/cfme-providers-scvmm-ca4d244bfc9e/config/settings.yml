@@ -1,0 +1,15 @@
+---
+:ems:
+  :ems_scvmm:
+    :blacklisted_event_names: []
+    :event_handling:
+      :event_groups:
+:ems_refresh:
+  :scvmm:
+    :inventory_object_refresh: false
+:http_proxy:
+  :scvmm:
+    :host:
+    :password:
+    :port:
+    :user:

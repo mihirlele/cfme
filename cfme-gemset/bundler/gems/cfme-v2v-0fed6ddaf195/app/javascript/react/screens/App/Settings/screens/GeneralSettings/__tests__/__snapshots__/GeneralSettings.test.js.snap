@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GeneralSettings component renders the general settings page 1`] = `
+<Spinner
+  className=""
+  inline={false}
+  inverse={false}
+  loading={false}
+  size="md"
+  style={
+    Object {
+      "marginTop": 15,
+    }
+  }
+>
+  <div
+    className="migration-settings"
+  >
+    <Form
+      bsClass="form"
+      className="form-horizontal"
+      componentClass="form"
+      horizontal={false}
+      inline={false}
+      style={
+        Object {
+          "padding": "0 20px",
+        }
+      }
+    >
+      <div>
+        <h3>
+          Concurrent Migrations
+        </h3>
+      </div>
+      <FormGroup
+        bsClass="form-group"
+      >
+        <ControlLabel
+          bsClass="control-label"
+          className="col-md-5"
+          srOnly={false}
+        >
+          <span
+            className="pull-left"
+          >
+            Maximum concurrent migrations per conversion host
+            <OverlayTrigger
+              defaultOverlayShown={false}
+              delay={500}
+              overlay={
+                <Popover
+                  bsClass="popover"
+                  id="maximum_concurrect_migrations_per_provider_popover"
+                  placement="right"
+                >
+                  For VDDK transformations the maximum concurrent migrations per conversion host is limited to 20. See the product documentation for more information.
+                </Popover>
+              }
+              placement="top"
+              rootClose={false}
+              trigger={
+                Array [
+                  "hover",
+                ]
+              }
+            >
+              <Icon
+                name="info"
+                size="md"
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "padding": 10,
+                    "width": "inherit",
+                  }
+                }
+                type="pf"
+              />
+            </OverlayTrigger>
+          </span>
+        </ControlLabel>
+        <div
+          className="col-md-2"
+        >
+          <Field
+            component={[Function]}
+            id="max_concurrent_tasks_per_host"
+            min={1}
+            name="max_concurrent_tasks_per_host"
+            normalize={[Function]}
+            onChange={[Function]}
+          />
+        </div>
+      </FormGroup>
+      <FormGroup
+        bsClass="form-group"
+      >
+        <ControlLabel
+          bsClass="control-label"
+          className="col-md-5"
+          srOnly={false}
+        >
+          <div
+            className="pull-left"
+          >
+            Maximum concurrent migrations per provider
+          </div>
+        </ControlLabel>
+        <div
+          className="col-md-2"
+        >
+          <Field
+            component={[Function]}
+            id="max_concurrent_tasks_per_ems"
+            min={1}
+            name="max_concurrent_tasks_per_ems"
+            normalize={[Function]}
+            onChange={[Function]}
+          />
+        </div>
+      </FormGroup>
+      <FormGroup
+        bsClass="form-group"
+        className="col-md-1 pull-left"
+        style={
+          Object {
+            "marginTop": "40px",
+          }
+        }
+      >
+        <Button
+          active={false}
+          block={false}
+          bsClass="btn"
+          bsStyle="primary"
+          disabled={true}
+          onClick={[Function]}
+        >
+          Apply
+        </Button>
+      </FormGroup>
+    </Form>
+  </div>
+</Spinner>
+`;

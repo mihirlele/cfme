@@ -1,0 +1,1 @@
+../bundler/gems/jquery-rjs-ded3d28d0049/jquery-rjs.gemspec

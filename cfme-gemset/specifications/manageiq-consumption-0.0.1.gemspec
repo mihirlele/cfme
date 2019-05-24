@@ -1,0 +1,1 @@
+../bundler/gems/cfme-consumption-09176f3dfd26/manageiq-consumption.gemspec

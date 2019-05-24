@@ -1,0 +1,1 @@
+../bundler/gems/cfme-graphql-1d6457dddc8f/manageiq-graphql.gemspec

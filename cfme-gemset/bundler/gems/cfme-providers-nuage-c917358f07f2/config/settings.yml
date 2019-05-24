@@ -1,0 +1,36 @@
+---
+:ems:
+  :ems_nuage:
+    :blacklisted_event_names: []
+    :event_handling:
+      :event_groups:
+        :addition:
+          :critical:
+          - !ruby/regexp /^nuage_.+_create$/
+        :deletion:
+          :critical:
+          - !ruby/regexp /^nuage_.+_delete$/
+        :update:
+          :critical:
+          - !ruby/regexp /^nuage_.+_update$/
+        :status: # alarms
+          :critical:
+          - !ruby/regexp /^nuage_alarm_.+$/
+:http_proxy:
+  :nuage:
+    :host:
+    :password:
+    :port:
+    :user:
+:ems_refresh:
+  :nuage_network:
+    :inventory_object_refresh: true
+    :allow_targeted_refresh: true
+:workers:
+  :worker_base:
+    :event_catcher:
+      :event_catcher_nuage_network:
+        :topics:
+          - topic/CNAMessages
+          - topic/CNAAlarms
+        :amqp_connect_timeout: 5.seconds

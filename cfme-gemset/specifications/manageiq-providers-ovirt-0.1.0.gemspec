@@ -1,0 +1,1 @@
+../bundler/gems/cfme-providers-ovirt-e8c41cc4cce4/manageiq-providers-ovirt.gemspec

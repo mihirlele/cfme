@@ -1,0 +1,1 @@
+../bundler/gems/cfme-providers-nuage-c917358f07f2/manageiq-providers-nuage.gemspec

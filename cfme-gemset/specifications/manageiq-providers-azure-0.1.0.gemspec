@@ -1,0 +1,1 @@
+../bundler/gems/cfme-providers-azure-9729eb3afd77/manageiq-providers-azure.gemspec

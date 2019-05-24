@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Settings component renders correctly 1`] = `
+<React.Fragment>
+  <Toolbar>
+    <BreadcrumbItem
+      active={true}
+    >
+      Compute
+    </BreadcrumbItem>
+    <BreadcrumbItem
+      active={true}
+    >
+      Migration
+    </BreadcrumbItem>
+    <BreadcrumbItem
+      active={true}
+    >
+      <strong>
+        Migration Settings
+      </strong>
+    </BreadcrumbItem>
+  </Toolbar>
+  <div
+    style={
+      Object {
+        "marginTop": 10,
+      }
+    }
+  >
+    <Uncontrolled(Tabs)
+      activeKey="/settings"
+      id="settings-tabs"
+      onSelect={[Function]}
+      unmountOnExit={true}
+    >
+      <Tab
+        eventKey="/settings"
+        title="Migration Throttling"
+      >
+        <Connect(ReduxForm) />
+      </Tab>
+      <Tab
+        eventKey="/settings/conversion_hosts"
+        title="Conversion Hosts"
+      >
+        <Connect(ConversionHostsSettings) />
+      </Tab>
+    </Uncontrolled(Tabs)>
+  </div>
+</React.Fragment>
+`;

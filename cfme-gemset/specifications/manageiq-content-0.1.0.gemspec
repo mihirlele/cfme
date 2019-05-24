@@ -1,0 +1,1 @@
+../bundler/gems/cfme-content-d42e03ffb35d/manageiq-content.gemspec

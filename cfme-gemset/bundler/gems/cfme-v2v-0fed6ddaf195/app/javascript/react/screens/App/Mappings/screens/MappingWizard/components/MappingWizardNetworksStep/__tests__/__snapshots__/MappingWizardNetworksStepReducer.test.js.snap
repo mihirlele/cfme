@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetching public cloud networks is fulfilled 1`] = `
+Object {
+  "errorPublicCloudNetworks": null,
+  "errorSourceNetworks": null,
+  "errorTargetNetworks": null,
+  "isFetchingPublicCloudNetworks": false,
+  "isFetchingSourceNetworks": false,
+  "isFetchingTargetNetworks": false,
+  "isRejectedPublicCloudNetworks": true,
+  "isRejectedSourceNetworks": false,
+  "isRejectedTargetNetworks": false,
+  "publicCloudNetworks": Array [
+    Object {
+      "cidr": null,
+      "cloud_tenant_id": "42000000000002",
+      "ems_id": "42000000000005",
+      "ems_ref": "1b39625c-221e-4aad-ace3-a09685ac2634",
+      "enabled": true,
+      "external_facing": true,
+      "extra_attributes": Object {
+        "maximum_transmission_unit": 1500,
+        "port_security_enabled": true,
+        "qos_policy_id": null,
+      },
+      "href": "http://0.0.0.0:8080/api/cloud_networks/42000000000001",
+      "id": "42000000000001",
+      "name": "external",
+      "orchestration_stack_id": null,
+      "provider_network_type": "flat",
+      "provider_physical_network": "datacentre",
+      "provider_segmentation_id": null,
+      "shared": true,
+      "status": "active",
+      "type": "ManageIQ::Providers::Openstack::NetworkManager::CloudNetwork::Public",
+      "vlan_transparent": null,
+    },
+  ],
+  "sourceNetworks": Array [],
+  "targetNetworks": Array [],
+}
+`;
+
+exports[`fetching public cloud networks is pending 1`] = `
+Object {
+  "errorPublicCloudNetworks": null,
+  "errorSourceNetworks": null,
+  "errorTargetNetworks": null,
+  "isFetchingPublicCloudNetworks": true,
+  "isFetchingSourceNetworks": false,
+  "isFetchingTargetNetworks": false,
+  "isRejectedPublicCloudNetworks": false,
+  "isRejectedSourceNetworks": false,
+  "isRejectedTargetNetworks": false,
+  "publicCloudNetworks": Array [],
+  "sourceNetworks": Array [],
+  "targetNetworks": Array [],
+}
+`;
+
+exports[`fetching public cloud networks is rejected 1`] = `
+Object {
+  "errorPublicCloudNetworks": "error",
+  "errorSourceNetworks": null,
+  "errorTargetNetworks": null,
+  "isFetchingPublicCloudNetworks": false,
+  "isFetchingSourceNetworks": false,
+  "isFetchingTargetNetworks": false,
+  "isRejectedPublicCloudNetworks": true,
+  "isRejectedSourceNetworks": false,
+  "isRejectedTargetNetworks": false,
+  "publicCloudNetworks": Array [],
+  "sourceNetworks": Array [],
+  "targetNetworks": Array [],
+}
+`;
+
+exports[`fetching source networks is fulfilled 1`] = `
+Object {
+  "errorPublicCloudNetworks": null,
+  "errorSourceNetworks": null,
+  "errorTargetNetworks": null,
+  "isFetchingPublicCloudNetworks": false,
+  "isFetchingSourceNetworks": false,
+  "isFetchingTargetNetworks": false,
+  "isRejectedPublicCloudNetworks": false,
+  "isRejectedSourceNetworks": false,
+  "isRejectedTargetNetworks": false,
+  "publicCloudNetworks": Array [],
+  "sourceNetworks": Array [
+    Object {
+      "allow_promiscuous": null,
+      "clusterId": "1",
+      "computed_allow_promiscuous": null,
+      "computed_forged_transmits": null,
+      "computed_mac_changes": null,
+      "created_on": "2017-06-01T04:24:18Z",
+      "forged_transmits": null,
+      "href": "http://localhost:3000/api/lans/10000000000007",
+      "id": "1-1",
+      "mac_changes": null,
+      "name": "VMWareCluster1-vm_network1",
+      "parent_id": null,
+      "switch_id": "1",
+      "tag": "23",
+      "uid_ems": "VMWareCluster1-vm_network1",
+      "updated_on": "2017-06-01T04:24:18Z",
+    },
+  ],
+  "targetNetworks": Array [],
+}
+`;
+
+exports[`fetching source networks is pending 1`] = `
+Object {
+  "errorPublicCloudNetworks": null,
+  "errorSourceNetworks": null,
+  "errorTargetNetworks": null,
+  "isFetchingPublicCloudNetworks": false,
+  "isFetchingSourceNetworks": true,
+  "isFetchingTargetNetworks": false,
+  "isRejectedPublicCloudNetworks": false,
+  "isRejectedSourceNetworks": false,
+  "isRejectedTargetNetworks": false,
+  "publicCloudNetworks": Array [],
+  "sourceNetworks": Array [],
+  "targetNetworks": Array [],
+}
+`;
+
+exports[`fetching source networks is rejected 1`] = `
+Object {
+  "errorPublicCloudNetworks": null,
+  "errorSourceNetworks": "error",
+  "errorTargetNetworks": null,
+  "isFetchingPublicCloudNetworks": false,
+  "isFetchingSourceNetworks": false,
+  "isFetchingTargetNetworks": false,
+  "isRejectedPublicCloudNetworks": false,
+  "isRejectedSourceNetworks": true,
+  "isRejectedTargetNetworks": false,
+  "publicCloudNetworks": Array [],
+  "sourceNetworks": Array [],
+  "targetNetworks": Array [],
+}
+`;
+
+exports[`fetching target networks is fulfilled 1`] = `
+Object {
+  "errorPublicCloudNetworks": null,
+  "errorSourceNetworks": null,
+  "errorTargetNetworks": null,
+  "isFetchingPublicCloudNetworks": false,
+  "isFetchingSourceNetworks": false,
+  "isFetchingTargetNetworks": false,
+  "isRejectedPublicCloudNetworks": false,
+  "isRejectedSourceNetworks": false,
+  "isRejectedTargetNetworks": false,
+  "publicCloudNetworks": Array [],
+  "sourceNetworks": Array [],
+  "targetNetworks": Array [
+    Object {
+      "allow_promiscuous": null,
+      "clusterId": "1",
+      "computed_allow_promiscuous": null,
+      "computed_forged_transmits": null,
+      "computed_mac_changes": null,
+      "created_on": "2017-06-01T04:24:18Z",
+      "forged_transmits": null,
+      "href": "http://localhost:3000/api/lans/10000000000019",
+      "id": "1-1",
+      "mac_changes": null,
+      "name": "RHV Cluster 1 - ovirtmgmt1",
+      "parent_id": null,
+      "switch_id": "10000000000000",
+      "tag": null,
+      "uid_ems": "00000000-0000-0000-0000-000000000000",
+      "updated_on": "2017-06-01T04:24:18Z",
+    },
+  ],
+}
+`;
+
+exports[`fetching target networks is pending 1`] = `
+Object {
+  "errorPublicCloudNetworks": null,
+  "errorSourceNetworks": null,
+  "errorTargetNetworks": null,
+  "isFetchingPublicCloudNetworks": false,
+  "isFetchingSourceNetworks": false,
+  "isFetchingTargetNetworks": true,
+  "isRejectedPublicCloudNetworks": false,
+  "isRejectedSourceNetworks": false,
+  "isRejectedTargetNetworks": false,
+  "publicCloudNetworks": Array [],
+  "sourceNetworks": Array [],
+  "targetNetworks": Array [],
+}
+`;
+
+exports[`fetching target networks is rejected 1`] = `
+Object {
+  "errorPublicCloudNetworks": null,
+  "errorSourceNetworks": null,
+  "errorTargetNetworks": "error",
+  "isFetchingPublicCloudNetworks": false,
+  "isFetchingSourceNetworks": false,
+  "isFetchingTargetNetworks": false,
+  "isRejectedPublicCloudNetworks": false,
+  "isRejectedSourceNetworks": false,
+  "isRejectedTargetNetworks": true,
+  "publicCloudNetworks": Array [],
+  "sourceNetworks": Array [],
+  "targetNetworks": Array [],
+}
+`;
+
+exports[`sets default state 1`] = `
+Object {
+  "errorPublicCloudNetworks": null,
+  "errorSourceNetworks": null,
+  "errorTargetNetworks": null,
+  "isFetchingPublicCloudNetworks": false,
+  "isFetchingSourceNetworks": false,
+  "isFetchingTargetNetworks": false,
+  "isRejectedPublicCloudNetworks": false,
+  "isRejectedSourceNetworks": false,
+  "isRejectedTargetNetworks": false,
+  "publicCloudNetworks": Array [],
+  "sourceNetworks": Array [],
+  "targetNetworks": Array [],
+}
+`;

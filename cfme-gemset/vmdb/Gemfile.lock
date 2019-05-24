@@ -1,0 +1,1163 @@
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-api
+  revision: a911458e8cb39c7bda4fbbe9a6976b092f483fc5
+  branch: 5.10.z
+  specs:
+    manageiq-api (4.0.0)
+      config
+      jbuilder (~> 2.5)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-automation_engine
+  revision: 5091d5bf4b233006a2106e4d787b346d06baf1ea
+  branch: 5.10.z
+  specs:
+    manageiq-automation_engine (0.1.0)
+      rubyzip (~> 1.2.2)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-consumption
+  revision: 09176f3dfd26262b1d6548776c40a3edf47bfdcf
+  branch: 5.10.z
+  specs:
+    manageiq-consumption (0.0.1)
+      money-rails (~> 1.9)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-content
+  revision: d42e03ffb35d1803877003c6be53f1f3c2a72370
+  branch: 5.10.z
+  specs:
+    manageiq-content (0.1.0)
+      savon (~> 2.11.1)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-gems-pending
+  revision: 1834a57bbc5e2b16bd047e7f2d3d4846546e179d
+  branch: 5.10.z
+  specs:
+    manageiq-gems-pending (0.1.0)
+      actionpack (>= 5.0, < 5.2)
+      activerecord (>= 5.0, < 5.2)
+      activesupport (>= 5.0, < 5.2)
+      awesome_spawn (~> 1.4)
+      aws-sdk (~> 2.9.7)
+      binary_struct (~> 2.1)
+      bundler (>= 1.8.4)
+      fog-openstack (~> 0.1.22)
+      linux_admin (~> 1.0)
+      manageiq-password (~> 0.1)
+      mime-types (~> 3.0)
+      more_core_extensions (~> 3.4)
+      net-scp (~> 1.2.1)
+      net-sftp (~> 2.1.2)
+      net-ssh (~> 4.2.0)
+      nokogiri (~> 1.8.1)
+      rake (>= 11.0)
+      sys-proctable (~> 1.1.5)
+      sys-uname (~> 1.0.1)
+      uuidtools (~> 2.1.3)
+      winrm (~> 2.1)
+      winrm-elevated (~> 1.0.1)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-graphql
+  revision: 1d6457dddc8f96460a8698fbde477e76669748e7
+  branch: 5.10.z
+  specs:
+    manageiq-graphql (0.1.0)
+      graphql (~> 1.7)
+      graphql-batch (~> 0.3.8)
+      graphql-preload (~> 1.0)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-providers-amazon
+  revision: a19a64b5fc662409569c839cb300ef1b5eddd6eb
+  branch: 5.10.z
+  specs:
+    manageiq-providers-amazon (0.1.0)
+      aws-sdk (~> 2.9.7)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-providers-ansible_tower
+  revision: fc61d649bd85389400808de00a65d795d4ac2025
+  branch: 5.10.z
+  specs:
+    manageiq-providers-ansible_tower (0.1.0)
+      ansible_tower_client (>= 0.19.1)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-providers-azure
+  revision: 9729eb3afd7748f336c6f3547301c8e801929260
+  branch: 5.10.z
+  specs:
+    manageiq-providers-azure (0.1.0)
+      azure-armrest (~> 0.9.13)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-providers-foreman
+  revision: 5729c33ffab993c71a33c9f092a3974dffa1d8d0
+  branch: 5.10.z
+  specs:
+    manageiq-providers-foreman (0.1.0)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-providers-google
+  revision: 6324c6b2bc65c9c2faf767e9602e848902697e0c
+  branch: 5.10.z
+  specs:
+    manageiq-providers-google (0.1.0)
+      fog-google (>= 1.8.1, < 2.0.0)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-providers-kubernetes
+  revision: 339029025f99f9e68a553e7bec78e692dad820eb
+  branch: 5.10.z
+  specs:
+    manageiq-providers-kubernetes (0.1.0)
+      hawkular-client (~> 4.1)
+      image-inspector-client (~> 2.0)
+      kubeclient (~> 4.0)
+      more_core_extensions (~> 3.6)
+      prometheus-alert-buffer-client (~> 0.2.0)
+      prometheus-api-client (~> 0.6)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-providers-kubevirt
+  revision: 5e60b1aad8bd4bce2b3a2039631463c3dfc3f8bb
+  branch: 5.10.z
+  specs:
+    manageiq-providers-kubevirt (0.0.1)
+      fog-kubevirt (~> 0.2.0)
+      manageiq-providers-kubernetes (~> 0.1.0)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-providers-lenovo
+  revision: 63c55ee1e036ac8d93c2eae686923383d3cca459
+  branch: 5.10.z
+  specs:
+    manageiq-providers-lenovo (0.2.0)
+      xclarity_client (~> 0.6.0)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-providers-nuage
+  revision: c917358f07f2fb6902d6fa63080b13bcdd12900e
+  branch: 5.10.z
+  specs:
+    manageiq-providers-nuage (0.1.0)
+      excon (~> 0.40)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-providers-openshift
+  revision: eb55293f94706591a9436577260a170ad8c13e80
+  branch: 5.10.z
+  specs:
+    manageiq-providers-openshift (0.1.0)
+      manageiq-providers-kubernetes (~> 0.1.0)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-providers-openstack
+  revision: 371a0c69fc678eaa3da8ac79e417b872c71b5dcc
+  branch: 5.10.z
+  specs:
+    manageiq-providers-openstack (0.1.0)
+      activesupport (>= 5.0, < 5.2)
+      bunny (~> 2.1.0)
+      excon (~> 0.40)
+      fog-openstack (= 0.1.31)
+      more_core_extensions (~> 3.2)
+      parallel (~> 1.12.0)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-providers-ovirt
+  revision: e8c41cc4cce49936383a13a90f10f0524918d250
+  branch: 5.10.z
+  specs:
+    manageiq-providers-ovirt (0.1.0)
+      ovirt (~> 0.18.1)
+      ovirt-engine-sdk (~> 4.2.1)
+      parallel (~> 1.9)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-providers-redfish
+  revision: c296be5258c36d5f253d8a4a1c051f4eed2c019f
+  branch: 5.10.z
+  specs:
+    manageiq-providers-redfish (0.1.0)
+      redfish_client (~> 0.4.0)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-providers-scvmm
+  revision: ca4d244bfc9ef69d56df76b87a829b3f61e9a5a1
+  branch: 5.10.z
+  specs:
+    manageiq-providers-scvmm (0.1.0)
+      addressable (~> 2.4)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-providers-vmware
+  revision: 21128f8c74ce69fd7566a9bbc34a4d48a149c4ee
+  branch: 5.10.z
+  specs:
+    manageiq-providers-vmware (0.1.0)
+      fog-vcloud-director (~> 0.3.0)
+      rbvmomi (~> 1.13.0)
+      vmware_web_service (~> 0.3.0)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-schema
+  revision: ad0ea586ec48d76ce8c9545cb059a85547a2e964
+  branch: 5.10.z
+  specs:
+    manageiq-schema (0.1.0)
+      activerecord-id_regions (~> 0.2.2)
+      manageiq-gems-pending
+      more_core_extensions (~> 3.5)
+      pg (~> 0.18.2)
+      pg-pglogical (~> 2.1.1)
+      rails (~> 5.0.2)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-ui-classic
+  revision: 6b31c72f0277af208d4e3e04122742a71944a890
+  branch: 5.10.z
+  specs:
+    manageiq-ui-classic (0.1.0)
+      coffee-rails
+      font-fabulous (~> 1.0.3)
+      high_voltage (~> 3.0.0)
+      jquery-hotkeys-rails
+      more_core_extensions (~> 3.2)
+      novnc-rails (~> 0.2)
+      patternfly-sass (~> 3.54.1)
+      rails (>= 5.0.0.1, < 5.2)
+      sass-rails
+      uglifier (~> 3.0.0)
+      webpacker (~> 2.0.0)
+
+GIT
+  remote: git@gitlab.cloudforms.lab.eng.rdu2.redhat.com:cloudforms/cfme-v2v
+  revision: 0fed6ddaf19579f0c5cdec13a7e7a2b704bfc66f
+  branch: 5.10.z
+  specs:
+    manageiq-v2v (0.0.1)
+
+GIT
+  remote: https://github.com/ManageIQ/amazon_ssa_support.git
+  revision: 8691fb85780f1c4d165ded7f3a905e7800cf2ba5
+  branch: master
+  specs:
+    amazon_ssa_support (0.1.0)
+      aws-sdk (~> 2.9.7)
+      log_decorator (~> 0.1)
+      manageiq-gems-pending (~> 0)
+      manageiq-smartstate (~> 0.2)
+
+GIT
+  remote: https://github.com/ManageIQ/foreman_api_client.git
+  revision: 1cdf102c9331d9553bc5e85a594554e14d4cc35a
+  branch: master
+  specs:
+    foreman_api_client (0.1.0)
+      apipie-bindings (= 0.0.15)
+      rest-client (>= 2.0.0.rc1)
+
+GIT
+  remote: https://github.com/ManageIQ/handsoap.git
+  revision: b1247a733ca35d13574526cafb106148ad2d673d
+  tag: v0.2.5-5
+  specs:
+    handsoap (0.2.5)
+      nokogiri (>= 1.2.3)
+
+GIT
+  remote: https://github.com/ManageIQ/jquery-rjs.git
+  revision: ded3d28d004991364f4b44803de4064d25c02a79
+  tag: v0.1.1-1
+  specs:
+    jquery-rjs (0.1.1)
+      jquery-rails
+      rails (>= 3.2)
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-api
+  revision: a911458e8cb39c7bda4fbbe9a6976b092f483fc5
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-automation_engine
+  revision: 5091d5bf4b233006a2106e4d787b346d06baf1ea
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-consumption
+  revision: 09176f3dfd26262b1d6548776c40a3edf47bfdcf
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-content
+  revision: d42e03ffb35d1803877003c6be53f1f3c2a72370
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-gems-pending.git
+  revision: 1834a57bbc5e2b16bd047e7f2d3d4846546e179d
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-graphql
+  revision: 1d6457dddc8f96460a8698fbde477e76669748e7
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-messaging
+  revision: 86fddf1a68a8b68874b420150ff0108182df78f6
+  branch: master
+  specs:
+    manageiq-messaging (0.1.2)
+      activesupport (>= 4.2.2)
+      ruby-kafka (~> 0.7.0)
+      stomp (~> 1.4.4)
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-providers-amazon
+  revision: a19a64b5fc662409569c839cb300ef1b5eddd6eb
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-providers-ansible_tower
+  revision: fc61d649bd85389400808de00a65d795d4ac2025
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-providers-azure
+  revision: 9729eb3afd7748f336c6f3547301c8e801929260
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-providers-foreman
+  revision: 5729c33ffab993c71a33c9f092a3974dffa1d8d0
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-providers-google
+  revision: 6324c6b2bc65c9c2faf767e9602e848902697e0c
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-providers-kubernetes
+  revision: 339029025f99f9e68a553e7bec78e692dad820eb
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-providers-kubevirt
+  revision: 5e60b1aad8bd4bce2b3a2039631463c3dfc3f8bb
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-providers-lenovo
+  revision: 63c55ee1e036ac8d93c2eae686923383d3cca459
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-providers-nuage
+  revision: c917358f07f2fb6902d6fa63080b13bcdd12900e
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-providers-openshift
+  revision: eb55293f94706591a9436577260a170ad8c13e80
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-providers-openstack
+  revision: 371a0c69fc678eaa3da8ac79e417b872c71b5dcc
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-providers-ovirt
+  revision: e8c41cc4cce49936383a13a90f10f0524918d250
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-providers-redfish
+  revision: c296be5258c36d5f253d8a4a1c051f4eed2c019f
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-providers-scvmm
+  revision: ca4d244bfc9ef69d56df76b87a829b3f61e9a5a1
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-providers-vmware
+  revision: 21128f8c74ce69fd7566a9bbc34a4d48a149c4ee
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-schema
+  revision: ad0ea586ec48d76ce8c9545cb059a85547a2e964
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-ui-classic
+  revision: 6b31c72f0277af208d4e3e04122742a71944a890
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/manageiq-v2v
+  revision: 0fed6ddaf19579f0c5cdec13a7e7a2b704bfc66f
+  branch: hammer
+  specs:
+
+GIT
+  remote: https://github.com/ManageIQ/rufus-scheduler.git
+  revision: 27279ffb807aac5aa08223e338033e9d3a11f5a8
+  tag: v3.1.10-2
+  specs:
+    rufus-scheduler (3.1.10.2)
+
+GIT
+  remote: https://github.com/ManageIQ/ruport.git
+  revision: 3727775479b034bc2343fb64c407ab2d14942ee8
+  tag: v1.7.0-3
+  specs:
+    ruport (1.7.0)
+      pdf-writer (= 1.1.8)
+
+PATH
+  remote: mime-types-redirector
+  specs:
+    mime-types (3.0.0)
+      mini_mime (>= 0.1.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    actioncable (5.0.7.2)
+      actionpack (= 5.0.7.2)
+      nio4r (>= 1.2, < 3.0)
+      websocket-driver (~> 0.6.1)
+    actionmailer (5.0.7.2)
+      actionpack (= 5.0.7.2)
+      actionview (= 5.0.7.2)
+      activejob (= 5.0.7.2)
+      mail (~> 2.5, >= 2.5.4)
+      rails-dom-testing (~> 2.0)
+    actionpack (5.0.7.2)
+      actionview (= 5.0.7.2)
+      activesupport (= 5.0.7.2)
+      rack (~> 2.0)
+      rack-test (~> 0.6.3)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    actionview (5.0.7.2)
+      activesupport (= 5.0.7.2)
+      builder (~> 3.1)
+      erubis (~> 2.7.0)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.0, >= 1.0.3)
+    activejob (5.0.7.2)
+      activesupport (= 5.0.7.2)
+      globalid (>= 0.3.6)
+    activemodel (5.0.7.2)
+      activesupport (= 5.0.7.2)
+    activerecord (5.0.7.2)
+      activemodel (= 5.0.7.2)
+      activesupport (= 5.0.7.2)
+      arel (~> 7.0)
+    activerecord-id_regions (0.2.2)
+      activerecord (>= 5.0, < 5.2)
+      activesupport (>= 5.0, < 5.2)
+      pg
+    activerecord-session_store (1.1.1)
+      actionpack (>= 4.0)
+      activerecord (>= 4.0)
+      multi_json (~> 1.11, >= 1.11.2)
+      rack (>= 1.5.2, < 3)
+      railties (>= 4.0)
+    activesupport (5.0.7.2)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    acts_as_tree (2.8.0)
+      activerecord (>= 3.0.0)
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    akami (1.3.1)
+      gyoku (>= 0.4.0)
+      nokogiri
+    american_date (1.1.1)
+    amq-protocol (2.3.0)
+    ancestry (2.2.2)
+      activerecord (>= 3.0.0)
+    ansible_tower_client (0.19.1)
+      activesupport
+      faraday
+      faraday_middleware
+      more_core_extensions (~> 3.0)
+    apipie-bindings (0.0.15)
+      json (>= 1.2.1)
+      oauth
+      rest-client (>= 1.6.5)
+    arel (7.1.4)
+    autoprefixer-rails (9.4.3)
+      execjs
+    awesome_spawn (1.4.1)
+    aws-sdk (2.9.44)
+      aws-sdk-resources (= 2.9.44)
+    aws-sdk-core (2.9.44)
+      aws-sigv4 (~> 1.0)
+      jmespath (~> 1.0)
+    aws-sdk-resources (2.9.44)
+      aws-sdk-core (= 2.9.44)
+    aws-sigv4 (1.0.3)
+    azure-armrest (0.9.13)
+      activesupport (>= 4.2.2)
+      addressable (~> 2.5.0)
+      azure-signature (~> 0.2.3)
+      json (~> 2)
+      memoist (~> 0.15.0)
+      parallel (~> 1.12.0)
+      rest-client (~> 2.0.0)
+    azure-signature (0.2.3)
+      addressable
+    bcrypt (3.1.12)
+    binary_struct (2.1.0)
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
+    builder (3.2.3)
+    bunny (2.1.0)
+      amq-protocol (>= 2.0.0)
+    coffee-rails (4.2.2)
+      coffee-script (>= 2.2.0)
+      railties (>= 4.0.0)
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.12.2)
+    color (1.8)
+    concurrent-ruby (1.1.4)
+    config (1.6.1)
+      activesupport (>= 3.0)
+      deep_merge (~> 1.1.1)
+      dry-validation (>= 0.10.4)
+    crass (1.0.4)
+    dalli (2.7.6)
+    declarative (0.0.10)
+    declarative-option (0.1.0)
+    deep_merge (1.1.1)
+    default_value_for (3.0.5)
+      activerecord (>= 3.2.0, < 5.2)
+    digest-crc (0.4.1)
+    docker-api (1.33.6)
+      excon (>= 0.38.0)
+      json
+    domain_name (0.5.20180417)
+      unf (>= 0.0.5, < 1.0.0)
+    dry-configurable (0.7.0)
+      concurrent-ruby (~> 1.0)
+    dry-container (0.6.0)
+      concurrent-ruby (~> 1.0)
+      dry-configurable (~> 0.1, >= 0.1.3)
+    dry-core (0.4.7)
+      concurrent-ruby (~> 1.0)
+    dry-equalizer (0.2.1)
+    dry-inflector (0.1.2)
+    dry-logic (0.4.2)
+      dry-container (~> 0.2, >= 0.2.6)
+      dry-core (~> 0.2)
+      dry-equalizer (~> 0.2)
+    dry-types (0.13.3)
+      concurrent-ruby (~> 1.0)
+      dry-container (~> 0.3)
+      dry-core (~> 0.4, >= 0.4.4)
+      dry-equalizer (~> 0.2)
+      dry-inflector (~> 0.1, >= 0.1.2)
+      dry-logic (~> 0.4, >= 0.4.2)
+    dry-validation (0.12.2)
+      concurrent-ruby (~> 1.0)
+      dry-configurable (~> 0.1, >= 0.1.3)
+      dry-core (~> 0.2, >= 0.2.1)
+      dry-equalizer (~> 0.2)
+      dry-logic (~> 0.4, >= 0.4.0)
+      dry-types (~> 0.13.1)
+    elif (0.1.0)
+    erubis (2.7.0)
+    event_emitter (0.2.6)
+    excon (0.62.0)
+    execjs (2.7.0)
+    faker (1.8.7)
+      i18n (>= 0.7)
+    faraday (0.9.2)
+      multipart-post (>= 1.2, < 3)
+    faraday-cookie_jar (0.0.6)
+      faraday (>= 0.7.4)
+      http-cookie (~> 1.0.0)
+    faraday_middleware (0.10.1)
+      faraday (>= 0.7.4, < 1.0)
+    fast_gettext (1.2.0)
+    ffi (1.9.25)
+    ffi-vix_disk_lib (1.0.5)
+      ffi
+    fog-core (1.45.0)
+      builder
+      excon (~> 0.58)
+      formatador (~> 0.2)
+    fog-google (1.8.1)
+      fog-core (<= 2.1.0)
+      fog-json (~> 1.2.0)
+      fog-xml (~> 0.1.0)
+      google-api-client (~> 0.23.0)
+    fog-json (1.2.0)
+      fog-core
+      multi_json (~> 1.10)
+    fog-kubevirt (0.2.1)
+      fog-core (~> 1.45)
+      kubeclient (~> 4.1.2)
+    fog-openstack (0.1.31)
+      fog-core (~> 1.45.0)
+      fog-json (>= 1.0)
+      ipaddress (>= 0.8)
+    fog-vcloud-director (0.3.0)
+      fog-core (>= 1.40)
+      fog-xml
+    fog-xml (0.1.3)
+      fog-core
+      nokogiri (>= 1.5.11, < 2.0.0)
+    font-awesome-sass (4.6.2)
+      sass (>= 3.2)
+    font-fabulous (1.0.3)
+    formatador (0.2.5)
+    gettext (3.2.9)
+      locale (>= 2.0.5)
+      text (>= 1.3.0)
+    gettext_i18n_rails (1.7.2)
+      fast_gettext (>= 0.9.0)
+    gettext_i18n_rails_js (1.3.0)
+      gettext (>= 3.0.2)
+      gettext_i18n_rails (>= 0.7.1)
+      po_to_json (>= 1.0.0)
+      rails (>= 3.2.0)
+    globalid (0.4.1)
+      activesupport (>= 4.2.0)
+    google-api-client (0.23.9)
+      addressable (~> 2.5, >= 2.5.1)
+      googleauth (>= 0.5, < 0.7.0)
+      httpclient (>= 2.8.1, < 3.0)
+      mime-types (~> 3.0)
+      representable (~> 3.0)
+      retriable (>= 2.0, < 4.0)
+      signet (~> 0.9)
+    googleauth (0.5.1)
+      faraday (~> 0.9)
+      jwt (~> 1.4)
+      logging (~> 2.0)
+      memoist (~> 0.12)
+      multi_json (~> 1.11)
+      os (~> 0.9)
+      signet (~> 0.7)
+    graphql (1.8.11)
+    graphql-batch (0.3.10)
+      graphql (>= 0.8, < 2)
+      promise.rb (~> 0.7.2)
+    graphql-preload (1.0.4)
+      activerecord (>= 3.2, < 6)
+      graphql (>= 1.5, < 2)
+      graphql-batch (~> 0.3)
+      promise.rb (~> 0.7)
+    gssapi (1.2.0)
+      ffi (>= 1.0.1)
+    gyoku (1.3.1)
+      builder (>= 2.1.2)
+    hamlit (2.8.8)
+      temple (>= 0.8.0)
+      thor
+      tilt
+    hashdiff (0.3.7)
+    hawkular-client (4.1.0)
+      addressable
+      rest-client (~> 2.0.0)
+      websocket-client-simple (~> 0.3.0)
+    high_voltage (3.0.0)
+    highline (1.6.21)
+    htauth (2.0.0)
+    http (3.3.0)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 2.0)
+      http_parser.rb (~> 0.6.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    http-form_data (2.1.1)
+    http_parser.rb (0.6.0)
+    httpclient (2.8.3)
+    httpi (2.4.4)
+      rack
+      socksify
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
+    image-inspector-client (2.0.0)
+      json
+      recursive-open-struct (~> 1.0)
+      rest-client (~> 2.0)
+    inifile (3.0.0)
+    iniparse (1.4.4)
+    inventory_refresh (0.1.2)
+      activerecord (~> 5.0.6)
+      more_core_extensions (~> 3.5)
+      pg (~> 0.18.2)
+    ipaddress (0.8.3)
+    jbuilder (2.8.0)
+      activesupport (>= 4.2.0)
+      multi_json (>= 1.2)
+    jmespath (1.4.0)
+    jquery-hotkeys-rails (0.7.9.1)
+      railties (>= 3.1)
+    jquery-rails (4.3.3)
+      rails-dom-testing (>= 1, < 3)
+      railties (>= 4.2.0)
+      thor (>= 0.14, < 2.0)
+    json (2.1.0)
+    json-schema (2.8.1)
+      addressable (>= 2.4)
+    jwt (1.5.6)
+    kubeclient (4.1.2)
+      http (~> 3.0)
+      recursive-open-struct (~> 1.0, >= 1.0.4)
+      rest-client (~> 2.0)
+    linux_admin (1.2.2)
+      awesome_spawn (~> 1.3)
+      inifile
+      more_core_extensions (~> 3.0)
+      net-ssh (~> 4.2.0)
+      nokogiri (~> 1.8, >= 1.8.2)
+      openscap
+    linux_block_device (0.2.1)
+    little-plugger (1.1.4)
+    locale (2.1.2)
+    log_decorator (0.1.0)
+    logging (2.2.2)
+      little-plugger (~> 1.1)
+      multi_json (~> 1.10)
+    loofah (2.2.3)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.5.9)
+    macaddr (1.7.1)
+      systemu (~> 2.6.2)
+    mail (2.7.1)
+      mini_mime (>= 0.1.1)
+    manageiq-api-client (0.3.3)
+      activesupport (>= 5.0, < 5.2)
+      faraday (~> 0.9)
+      faraday_middleware (~> 0.10.0)
+      json (~> 2.1.0)
+      more_core_extensions
+      query_relation
+    manageiq-appliance_console (3.3.1)
+      activerecord (>= 4.2.2)
+      activesupport (>= 4.2.2)
+      awesome_spawn (~> 1.4)
+      bcrypt (~> 3.1.10)
+      highline (~> 1.6.21)
+      i18n (~> 0.7)
+      linux_admin (~> 1.0, >= 1.2.2)
+      pg
+      trollop (~> 2.0)
+    manageiq-password (0.3.0)
+    manageiq-postgres_ha_admin (3.0.0)
+      awesome_spawn (~> 1.4)
+      linux_admin (~> 1.0)
+      pg
+      pg-dsn_parser (~> 0.1)
+    manageiq-smartstate (0.2.18)
+      azure-armrest (~> 0.9.6)
+      binary_struct (~> 2.1)
+      iniparse
+      linux_block_device (~> 0.2.1)
+      memory_buffer (>= 0.1.0)
+      rufus-lru (~> 1.0.3)
+      sys-uname (~> 1.0.1)
+      vmware_web_service (~> 0.3.0)
+    memoist (0.15.0)
+    memory_buffer (0.1.0)
+    method_source (0.9.2)
+    mini_mime (1.0.1)
+    mini_portile2 (2.3.0)
+    minitest (5.11.3)
+    monetize (1.9.0)
+      money (~> 6.12)
+    money (6.13.1)
+      i18n (>= 0.6.4, <= 2)
+    money-rails (1.13.0)
+      activesupport (>= 3.0)
+      monetize (~> 1.9.0)
+      money (~> 6.13.0)
+      railties (>= 3.0)
+    more_core_extensions (3.6.0)
+      activesupport
+    multi_json (1.13.1)
+    multipart-post (2.0.0)
+    nakayoshi_fork (0.0.4)
+    net-ldap (0.16.1)
+    net-ping (1.7.8)
+    net-scp (1.2.1)
+      net-ssh (>= 2.6.5)
+    net-sftp (2.1.2)
+      net-ssh (>= 2.6.5)
+    net-ssh (4.2.0)
+    netrc (0.11.0)
+    nio4r (2.3.1)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
+    nori (2.6.0)
+    novnc-rails (0.2)
+      railties (>= 3.1.0)
+    oauth (0.5.4)
+    open4 (1.3.4)
+    openscap (0.4.8)
+      ffi (>= 1.0.9)
+    os (0.9.6)
+    ovirt (0.18.1)
+      more_core_extensions (>= 3.0.0)
+      nokogiri (>= 1.6.8)
+      rest-client (>= 2.0.0)
+    ovirt-engine-sdk (4.2.4)
+      json (>= 1, < 3)
+    ovirt_metrics (2.0.0)
+      activerecord (>= 4.2.3, < 5.2)
+      pg
+    parallel (1.12.1)
+    patternfly-sass (3.54.8)
+      bootstrap-sass (~> 3.3.7)
+      font-awesome-sass (~> 4.6.2)
+      sass (~> 3.4.15)
+    pdf-writer (1.1.8)
+      color (>= 1.4.0)
+      transaction-simple (~> 1.3)
+    pg (0.18.4)
+    pg-dsn_parser (0.1.0)
+    pg-pglogical (2.1.2)
+      activerecord
+      pg (~> 0.18)
+    po_to_json (1.0.1)
+      json (>= 1.6.0)
+    prometheus-alert-buffer-client (0.2.0)
+      faraday (~> 0.9.2)
+    prometheus-api-client (0.6.1)
+      faraday (~> 0.9)
+    promise.rb (0.7.4)
+    public_suffix (3.0.3)
+    puma (3.7.1)
+    qpid_proton (0.22.0)
+    query_relation (0.1.1)
+      activesupport
+      more_core_extensions
+    rack (2.0.6)
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rails (5.0.7.2)
+      actioncable (= 5.0.7.2)
+      actionmailer (= 5.0.7.2)
+      actionpack (= 5.0.7.2)
+      actionview (= 5.0.7.2)
+      activejob (= 5.0.7.2)
+      activemodel (= 5.0.7.2)
+      activerecord (= 5.0.7.2)
+      activesupport (= 5.0.7.2)
+      bundler (>= 1.3.0)
+      railties (= 5.0.7.2)
+      sprockets-rails (>= 2.0.0)
+    rails-dom-testing (2.0.3)
+      activesupport (>= 4.2.0)
+      nokogiri (>= 1.6)
+    rails-html-sanitizer (1.0.4)
+      loofah (~> 2.2, >= 2.2.2)
+    rails-i18n (5.1.2)
+      i18n (>= 0.7, < 2)
+      railties (>= 5.0, < 6)
+    railties (5.0.7.2)
+      actionpack (= 5.0.7.2)
+      activesupport (= 5.0.7.2)
+      method_source
+      rake (>= 0.8.7)
+      thor (>= 0.18.1, < 2.0)
+    rake (12.3.2)
+    rbvmomi (1.13.0)
+      builder (~> 3.0)
+      json (>= 1.8)
+      nokogiri (~> 1.5)
+      trollop (~> 2.1)
+    recursive-open-struct (1.1.0)
+    redfish_client (0.4.1)
+      excon (~> 0.60)
+      server_sent_events (~> 0.1)
+    redhat_access_cfme (2.0.3)
+      redhat_access_lib (~> 1.1, >= 1.1.2)
+    redhat_access_lib (1.1.4)
+      rest-client (>= 1.6.3)
+    representable (3.0.4)
+      declarative (< 0.1.0)
+      declarative-option (< 0.2.0)
+      uber (< 0.2.0)
+    responders (2.4.0)
+      actionpack (>= 4.2.0, < 5.3)
+      railties (>= 4.2.0, < 5.3)
+    rest-client (2.0.2)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    retriable (3.1.2)
+    ripper_ruby_parser (1.2.0)
+      sexp_processor (~> 4.10.0)
+    ruby-dbus (0.15.0)
+    ruby-kafka (0.7.4)
+      digest-crc
+    ruby-progressbar (1.7.5)
+    rubyntlm (0.6.2)
+    rubyzip (1.2.2)
+    rufus-lru (1.0.7)
+    rugged (0.27.4)
+    sass (3.4.25)
+    sass-rails (5.0.7)
+      railties (>= 4.0.0, < 6)
+      sass (~> 3.1)
+      sprockets (>= 2.8, < 4.0)
+      sprockets-rails (>= 2.0, < 4.0)
+      tilt (>= 1.1, < 3)
+    savon (2.11.2)
+      akami (~> 1.2)
+      builder (>= 2.1.2)
+      gyoku (~> 1.2)
+      httpi (~> 2.3)
+      nokogiri (>= 1.4.0)
+      nori (~> 2.4)
+      wasabi (~> 3.4)
+    secure_headers (3.0.3)
+      useragent
+    server_sent_events (0.1.2)
+    sexp_processor (4.10.1)
+    signet (0.11.0)
+      addressable (~> 2.3)
+      faraday (~> 0.9)
+      jwt (>= 1.5, < 3.0)
+      multi_json (~> 1.10)
+    simple-rss (1.3.3)
+    snmp (1.2.0)
+    socksify (1.7.1)
+    sprockets (3.7.2)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
+    sprockets-rails (3.2.1)
+      actionpack (>= 4.0)
+      activesupport (>= 4.0)
+      sprockets (>= 3.0.0)
+    sqlite3 (1.3.13)
+    sshkey (1.8.0)
+    stomp (1.4.7)
+    sys-proctable (1.1.5-universal-aix-5)
+    sys-uname (1.0.4)
+      ffi (>= 1.0.0)
+    systemu (2.6.5)
+    temple (0.8.0)
+    text (1.3.1)
+    thor (0.20.3)
+    thread_safe (0.3.6)
+    tilt (2.0.9)
+    transaction-simple (1.4.0.2)
+    trollop (2.1.3)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
+    uber (0.1.0)
+    uglifier (3.0.4)
+      execjs (>= 0.3.0, < 3)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.5)
+    useragent (0.16.10)
+    uuid (2.3.9)
+      macaddr (~> 1.0)
+    uuidtools (2.1.5)
+    vmware_web_service (0.3.3)
+      activesupport (>= 5.0, < 5.2)
+      ffi (~> 1.9.3)
+      ffi-vix_disk_lib (~> 1.0.5)
+      handsoap (~> 0.2.5)
+      httpclient (~> 2.8.0)
+      more_core_extensions (~> 3.2)
+      rbvmomi (~> 1.13.0)
+    wasabi (3.5.0)
+      httpi (~> 2.0)
+      nokogiri (>= 1.4.2)
+    webpacker (2.0)
+      activesupport (>= 4.2)
+      multi_json (~> 1.2)
+      railties (>= 4.2)
+    websocket (1.2.8)
+    websocket-client-simple (0.3.0)
+      event_emitter
+      websocket
+    websocket-driver (0.6.5)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.3)
+    winrm (2.3.0)
+      builder (>= 2.1.2)
+      erubis (~> 2.7)
+      gssapi (~> 1.2)
+      gyoku (~> 1.0)
+      httpclient (~> 2.2, >= 2.2.0.2)
+      logging (>= 1.6.1, < 3.0)
+      nori (~> 2.0)
+      rubyntlm (~> 0.6.0, >= 0.6.1)
+    winrm-elevated (1.0.1)
+      winrm (~> 2.0)
+      winrm-fs (~> 1.0)
+    winrm-fs (1.3.1)
+      erubis (~> 2.7)
+      logging (>= 1.6.1, < 3.0)
+      rubyzip (~> 1.1)
+      winrm (~> 2.0)
+    xclarity_client (0.6.5)
+      faker (~> 1.8.3)
+      faraday (~> 0.9)
+      faraday-cookie_jar (~> 0.0.6)
+      httpclient (~> 2.8.3)
+      json-schema (~> 2.8.0)
+      uuid (~> 2.3.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activerecord-id_regions (~> 0.2.0)
+  activerecord-session_store (~> 1.1)
+  acts_as_tree (~> 2.7)
+  amazon_ssa_support!
+  american_date
+  ancestry (~> 2.2.1)
+  bcrypt (= 3.1.12)
+  bundler (>= 1.11.1)
+  color (~> 1.8)
+  config (~> 1.6.0)
+  dalli (= 2.7.6)
+  default_value_for (~> 3.0.3)
+  docker-api (~> 1.33.6)
+  elif (= 0.1.0)
+  fast_gettext (~> 1.2.0)
+  ffi (= 1.9.25)
+  foreman_api_client (>= 0.1.0)!
+  gettext_i18n_rails (~> 1.7.2)
+  gettext_i18n_rails_js (~> 1.3.0)
+  googleauth (= 0.5.1)
+  hamlit (= 2.8.8)
+  handsoap (~> 0.2.5)!
+  hashdiff
+  highline (~> 1.6.21)
+  htauth (= 2.0.0)
+  http_parser.rb (= 0.6.0)
+  inifile (~> 3.0)
+  inventory_refresh (~> 0.1.2)
+  jquery-rjs (= 0.1.1)!
+  json (= 2.1.0)
+  kubeclient (~> 4.0)
+  linux_admin (~> 1.2.1)
+  linux_block_device (= 0.2.1)
+  log_decorator (~> 0.1)
+  manageiq-api!
+  manageiq-api-client (~> 0.3.3)
+  manageiq-appliance_console (~> 3.3, >= 3.3.1)
+  manageiq-automation_engine!
+  manageiq-consumption!
+  manageiq-content!
+  manageiq-gems-pending!
+  manageiq-graphql!
+  manageiq-messaging!
+  manageiq-postgres_ha_admin (~> 3.0)
+  manageiq-providers-amazon!
+  manageiq-providers-ansible_tower!
+  manageiq-providers-azure!
+  manageiq-providers-foreman!
+  manageiq-providers-google!
+  manageiq-providers-kubernetes!
+  manageiq-providers-kubevirt!
+  manageiq-providers-lenovo!
+  manageiq-providers-nuage!
+  manageiq-providers-openshift!
+  manageiq-providers-openstack!
+  manageiq-providers-ovirt!
+  manageiq-providers-redfish!
+  manageiq-providers-scvmm!
+  manageiq-providers-vmware!
+  manageiq-schema!
+  manageiq-smartstate (~> 0.2.18)
+  manageiq-ui-classic!
+  manageiq-v2v!
+  memoist (~> 0.15.0)
+  memory_buffer (= 0.1.0)
+  mime-types (~> 3.0)!
+  more_core_extensions (~> 3.5)
+  nakayoshi_fork (~> 0.0.3)
+  net-ldap (~> 0.16.1)
+  net-ping (~> 1.7.4)
+  nio4r (= 2.3.1)
+  nokogiri (= 1.8.2)
+  open4 (~> 1.3.0)
+  openscap (~> 0.4.8)
+  ovirt-engine-sdk (= 4.2.4)
+  ovirt_metrics (~> 2.0.0)
+  pg (= 0.18.4)
+  pg-dsn_parser (~> 0.1.0)
+  pg-pglogical (~> 2.1.2)
+  puma (= 3.7.1)
+  qpid_proton (= 0.22.0)
+  query_relation (~> 0.1.0)
+  rails (~> 5.0.7.2)
+  rails-i18n (~> 5.x)
+  rake (>= 11.0)
+  redhat_access_cfme
+  responders (~> 2.0)
+  rest-client (~> 2.0.0)
+  ripper_ruby_parser (~> 1.2.0)
+  ruby-dbus
+  ruby-progressbar (~> 1.7.0)
+  rubyzip (~> 1.2.1)
+  rufus-scheduler (= 3.1.10.2)!
+  rugged (= 0.27.4)
+  ruport (= 1.7.0)!
+  secure_headers (~> 3.0.0)
+  simple-rss (~> 1.3.1)
+  snmp (~> 1.2.0)
+  sqlite3 (= 1.3.13)
+  sshkey (~> 1.8.0)
+  trollop (~> 2.1.3)
+  unf_ext (= 0.0.7.5)
+  vmware_web_service (~> 0.3.3)
+  websocket-driver (= 0.6.5)
+
+BUNDLED WITH
+   1.15.4

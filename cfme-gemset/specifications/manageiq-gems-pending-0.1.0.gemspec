@@ -1,0 +1,1 @@
+../bundler/gems/cfme-gems-pending-1834a57bbc5e/manageiq-gems-pending.gemspec

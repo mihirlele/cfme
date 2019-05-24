@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FETCH_V2V_PLAN fetchPlanAction dispatches the PENDING and FULFILLED actions 1`] = `
+Array [
+  Object {
+    "type": "FETCH_V2V_PLAN_PENDING",
+  },
+  Object {
+    "type": "FETCH_V2V_PLAN_FULFILLED",
+  },
+]
+`;
+
+exports[`FETCH_V2V_PLAN fetchPlanAction dispatches the PENDING and REJECTED actions 1`] = `
+Array [
+  Object {
+    "type": "FETCH_V2V_PLAN_PENDING",
+  },
+  Object {
+    "error": true,
+    "payload": [Error: <mocked error>],
+    "type": "FETCH_V2V_PLAN_REJECTED",
+  },
+]
+`;

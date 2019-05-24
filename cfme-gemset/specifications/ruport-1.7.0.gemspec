@@ -1,0 +1,1 @@
+../bundler/gems/ruport-3727775479b0/ruport.gemspec

@@ -1,0 +1,4 @@
+export APPLIANCE="true"
+export BUNDLE_PATH=/opt/rh/cfme-gemset
+export GEM_PATH=/opt/rh/cfme-gemset:$(gem env path)
+export PATH=/opt/rh/cfme-gemset/bin:$PATH

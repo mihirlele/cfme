@@ -1,0 +1,1 @@
+../bundler/gems/cfme-providers-ansible_tower-fc61d649bd85/manageiq-providers-ansible_tower.gemspec
